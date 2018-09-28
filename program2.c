@@ -21,6 +21,7 @@ void binaryTester(int array[], int test[], int size){
     printf("\n");
 }
 
+
 int main(){
     printf("\t-----------------------------------\n");
     printf("\t-   Part1 : String Manipulation   -\n");
