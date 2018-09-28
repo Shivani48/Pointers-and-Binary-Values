@@ -7,7 +7,7 @@
 	All parts of the program are complete.
 
 ## REFERENCES:
-- https://learn.parallax.com/tutorials/language/propeller-c/propeller-c-simple-protocols - for but masking
+- https://learn.parallax.com/tutorials/language/propeller-c/propeller-c-simple-protocols - for bit masking
 
 ## MISCELLANEOUS COMMENTS:
 - N/A
