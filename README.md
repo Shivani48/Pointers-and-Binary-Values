@@ -4,12 +4,13 @@
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
 - What parts of the program you were not able to complete
+	All parts of the program are complete.
 
 ## REFERENCES:
-- List any outside resources used
+- https://learn.parallax.com/tutorials/language/propeller-c/propeller-c-simple-protocols - for but masking
 
 ## MISCELLANEOUS COMMENTS:
-- Anything you would like the grader to know
+- N/A
 
 # Assignment Description
 ## Program 2 - Pointers and Bits
