@@ -1,52 +1,3 @@
-# CS580u Programming and System Tools
-## Fall 2018
-### PROGRAM 2 README FILE
-
-## KNOWN BUGS AND INCOMPLETE PARTS:
-- What parts of the program you were not able to complete
-	All parts of the program are complete.
-
-## REFERENCES:
-- https://learn.parallax.com/tutorials/language/propeller-c/propeller-c-simple-protocols - for bit masking
-
-## MISCELLANEOUS COMMENTS:
-- N/A
-
-# Assignment Description
-## Program 2 - Pointers and Bits
-### Due Date: 5:00 p.m., September 28th, 2018
-
-*All programs will be tested on the machines in the Q22 lab. If your code does not run on the system in this lab, it is considered non-functioning EVEN IF IT RUNS ON YOUR PERSONAL COMPUTER. Always check that your code runs on the lab machines before submitting.*
-
-### Driver Code and Test Files
-
-* program2.c //Driver Code
-   * Include the driver code with your submission, but do not alter it.
-
-### Grading Rubric
-
-**_TOTAL: 20 points_**
-* **Part A: 12 points**
-    * myStrStr function works with all test cases (12 points / 2 for each case)
-* **Part B: 7 points**
-    * Passes Counting 1’s test (2 points) (must pass all tests)
-    * Passes Binary Tests (5 points total / 1 point each)
-* **Part C: 1 points**
-    * Follows requested program structure and submission format
-
-### Guidelines
-
-This is an individual assignment. You must do the vast majority of the work on your own. It is permissible to consult with classmates to ask general questions about the assignment, to help discover and fix specific bugs, and to talk about high level approaches in general terms. It is not permissible to give or receive answers or solution details from fellow students.
-
-You may research online for additional resources; however, you may not use code that was written specifically *to* solve the problem you have been given, and you may not have anyone else help you write the code or solve the problem. You may use code snippets found online, providing that they are appropriately and clearly cited, within your submitted code.
-
-*By submitting this assignment, you agree that you have followed the above guidelines regarding collaboration and research.*
-
-__In this program, you will learn to__:
-
-* Work with pointers
-* Work with binary values
-
 ## Part A: String Manipulations
 
 In the second program you will create a library file containing 4 functions. I have provided driver code that runs and tests your library code. You will need to create a second file that can be included in the driver code so the compiler can link them into an executable.
@@ -83,40 +34,5 @@ Next you will write a looping binary interpreter that creates an array represent
 * :bulb: The driver code includes the library <limits.h> at the top of the main source code file so you can use the global constant INT_MAX and INT_MIN
 
 
-## Part C: Submission
-* Required code naming and organization:
-    * program2.c
-    * mylib.h
 
-:no_entry: Every program will have a required submission guidelines. Please read submission requirements carefully. Any deviations from specifications will result in point deductions or incomplete grades.
 
-## README
-
-* KNOWN BUGS AND INCOMPLETE PARTS
-* REFERENCES
-* MISCELLANEOUS COMMENTS
-
-Before your final submission, edit the content for each of these sections in this README for your program. You do not have to use markdown, but you can find out more about markdown [here](https://guides.github.com/features/mastering-markdown/) if you would like to.
-
-### Git
-
-Below is a reminder of the commands you need to use to submit your program.
-
-:warning: *These commands all presume that your current working directory is within the directory tracked by `git`.*
-
-```shell
-git status
-git add mylib.h
-git commit -a -m "commit message"
-git push
-```
-
-To find your most recent commit hash, use the following command:
-
-```shell
-git rev-parse HEAD
-```    
-
-To complete your submission, you must copy and paste this number into mycourses. Go to MyCourses, select cs580u, and **Assignment Hash Submission**.
-
-:warning: You __MUST__ submit the commit hash on mycourses before the deadline to be considered on time **even if your program is completely working before the deadline**. :warning:
